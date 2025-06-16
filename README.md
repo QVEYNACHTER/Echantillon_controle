@@ -1,4 +1,18 @@
-Ce projet est inspiré d'une mission réelle. J'ai masqué les outputs pour anonymiser les données, aucune information sensible/confidentielle n'est partagée ici.
+## Contexte
+
+Ce projet est inspiré d'une mission réelle, mais **aucune information sensible ou confidentielle n'est partagée ici**. Pour anonymiser les données j'ai :
+- Masqué les outputs et résultats d'analyse
+- Généralisé ou modifié les noms des colonnes
+- Remplacé les chemins de fichiers et noms explicites par des chemins génériques
+- Neutralisé les règles métier internes en remplaçant les critères sensibles par des valeurs placeholders
+- Supprimé toute référence à des données financières ou opérationnelles réelles
+
+L'objectif de ce repo est uniquement de montrer :
+- Une logique de traitement et d'échantillonnage stratifié
+- Un usage de Python/pandas appliqué à un contexte de contrôle et d'analyse
+- La structuration d'un code reproductible et documenté
+
+## Description
 
 Une de mes principales missions consistait à extraire chaque mois les décomptes réglés afin de constituer, via un plan de sondage stratifié, un échantillon représentatif à soumettre au contrôle a posteriori. L'objectif final était d'élaborer un livrable annuel destiné au commissaire aux comptes, intégrant l'ensemble des données analysées : volumes et montants traités, échantillons audités, anomalies détectées, taux d'erreur, intervalles de confiance (à 95 %), estimation de l'impact financier (indus et rappels), ainsi que la nature des erreurs identifiées. Ce reporting était structuré par strate et par trimestre.
 
